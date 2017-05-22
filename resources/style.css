@@ -1,0 +1,64 @@
+body, html {
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    color: darkgray;
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+    color:black;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-family: Helvetica;
+    padding: 1rem 0px;
+}
+
+header {
+    margin-top: 1rem;
+    height: 30rem;
+}
+
+.logo-text {
+    font-weight: bold;
+}
+.logo {
+    padding-left: 24px;
+    height: 2rem;
+    padding-top: rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
