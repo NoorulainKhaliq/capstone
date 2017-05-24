@@ -1,16 +1,22 @@
 body, html {
-    font-size: 18px;
+    font-size: 16px;
     font-family: Helvetica, sans-serif;
     color: darkgray;
     background-color: white;
     opacity: 0.9;
     text-align: center;
-    color:black;
+    line-height: 1.5rem;
+    color: black;
 }
 
 .container {
-    width: 960px;
+    width: 64rem;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
 }
 
 nav {
@@ -37,7 +43,6 @@ header {
 .logo {
     padding-left: 24px;
     height: 3rem;
-    padding-top: rem;
 }
 
 .main-logo {
@@ -47,25 +52,43 @@ header {
 
 .banner-img {
     width: 60%;
+    margin: 2rem 1.5rem;
+    margin-right: 2.2rem;
+}
+.bannerimg {
+    width: 100%;
+    height: auto;
 }
 
 .banner {
     background-color: darkgray;
 }
 
-.flex {
+.banner-text {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: 30%;
+    margin: 1rem;
 }
 
+.banner-text button {
+    padding: .5rem 0;
+    background-color: #393A3A;
+    border: none;
+    width: 100%;
+    transition: background-color .5s ease;
+    line-height: 1.5rem;
+    box-shadow: 0px 0px 2rem rgba(0, 0, 0, 3);
+}
 
-
-
-
-
-
-
-
+button label {
+    color: #FFFFFF;
+    font-size: 1rem;
+    display: inline-block;
+    padding: .5rem 0;
+}
 
 
 
