@@ -23,30 +23,40 @@ nav {
     font-size: 1rem;
     font-family: Helvetica;
     padding: 1rem 0px;
+    background-color: white;
 }
 
 header {
     margin-top: 1rem;
-    height: 30rem;
 }
 
 .logo-text {
     font-weight: bold;
 }
+
 .logo {
     padding-left: 24px;
     height: 3rem;
     padding-top: rem;
 }
-.text {
-    
+
+.main-logo {
+    display: flex;
+    align-items: center;
 }
 
+.banner-img {
+    width: 60%;
+}
 
+.banner {
+    background-color: darkgray;
+}
 
-
-
-
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
