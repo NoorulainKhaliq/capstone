@@ -3,6 +3,8 @@
   <head>
     <title>Colmar Project</title>
     <link rel="stylesheet" href="resources/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    
     
   </head>
   <body>
@@ -10,11 +12,11 @@
   <!--header-->
   <header>
      
-      <nav>
+      <nav class="container">
         
          <div class= "main-logo">
              <img class="logo" src="./resources/images/ic-logo.svg"/>
-              <span class="text"><span class="logo-text">COLMAR</span>ACAMDEY</span>
+              <span class="text"><span class="bold-text">COLMAR</span>ACAMDEY</span>
           </div>
           
           <div class="menu">
@@ -26,19 +28,19 @@
       </nav>
   </header>
   
-  <!--Banner-->
+  <!--Banner Section 1-->
   
-    <div class= "banner flex container">
+    <div class= "banner flex-content">
        <!--image-->
        
-        <div class="banner-img">
+        <div class="main-content media-container">
             <img class="bannerimg" src="resources/images/banner.jpg"/> 
         </div>
         
              <!--banner text to the right-->
              
-              <div class="banner-text">
-                  <h2>Learn something new everyday</h2>
+              <div class="supporting-content">
+                  <h2 class="bold-text">Learn something new everyday</h2>
                   <h4>lorem ipsum dolar lorem ipsum dolar lorem ipsum dolar lorem ipsum dolar</h4>
                   <button type="button" name="start here">
                       <label>Start here</label>
@@ -46,6 +48,197 @@
               </div>
      </div>
   
+  <!--Section 2-->
   
+  <div class= "flex-content">
+    
+     <div class="main-content media-container">
+         <img class="bannerimg" src="resources/images/information-main.jpg"/>
+        <h2>It doesn't hurt to keep practicing</h2>
+         <p>“Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.”
+         </p>
+         <span>Emanuel, Sr Strategist at Hiring.com</span>
+     </div>
+     
+     <div class="supporting-content">
+
+        <div class="supporting-imagebox">
+           <div class="media-container">
+               <img src="resources/images/information-orientation.jpg"/>
+           </div>
+           <div class="text-content noMargin">
+               <h4>Orientation Data</h4>
+               <p>Tues 10/11 & Wed 10/12</p>
+               <a href="#">Read More</a>
+            </div>
+        </div>
+        
+   
+        <div class="supporting-imagebox">
+           <div class="media-container">
+               <img src="resources/images/information-campus.jpg"/>
+           </div>
+           <div class="text-content noMargin">
+               <h4>Our Campus</h4>
+                <p>Find which campus is close by you</p>
+               <a href="#">Read More</a>
+            </div>
+        </div>
+        
+     
+        <div class="supporting-imagebox">
+           <div class="media-container">
+               <img src="resources/images/information-guest-lecture.jpg"/>
+           </div>
+           <div class="text-content noMargin">
+               <h4>Our Guest Lecture</h4>
+                <p>Join keynote with Oliver Sack about music and medical treatment</p>
+               <a href="#">Read More</a>
+            </div>
+        </div>
+            
+     </div>
+      
+  </div>
+  
+  <!--section 3-->
+  
+  <div class="sec3">
+      <h2 class="centerh2">Start Learning</h2>
+      
+      <div class="row">
+          
+          <div class="course">
+          <div class="media-container">
+              <img src="resources/images/course-software.jpg">
+          </div>
+            
+             <div class=text-container>
+                  <h4>Software engineering</h4>
+                  <p>COURSE</p>
+                  <p>Web Development, Mobile Development, iOS, APIs</p>
+             </div>
+          </div>
+          
+          <div class="course">
+          <div class="media-container">
+              <img src="resources/images/course-computer-art.jpg"/>
+          </div>
+            
+             <div class=text-container>
+                  <h4>Software engineering</h4>
+                  <p>COURSE</p>
+                  <p>Web Development, Mobile Development, iOT, APIs</p>
+             </div>
+          </div>
+          
+          <div class="course">
+          <div class="media-container">
+              <img src="resources/images/course-design.jpg"/>
+          </div>
+            
+             <div class=text-container>
+                  <h4>Software engineering</h4>
+                  <p>COURSE</p>
+                  <p>Web Development, Mobile Development, iOT, APIs</p>
+             </div>
+          </div>
+          
+      </div>
+      
+      <div class="row">
+         
+          <div class="course">
+          <div class="media-container">
+              <img src="resources/images/course-data.jpg"/>
+          </div>
+            
+             <div class=text-container>
+                  <h4>Software engineering</h4>
+                  <p>COURSE</p>
+                  <p>Web Development, Mobile Development, iOT, APIs</p>
+             </div>
+          </div>
+          
+            <div class="course">
+          <div class="media-container">
+              <img src="resources/images/course-business.jpg"/>
+          </div>
+            
+             <div class=text-container>
+                  <h4>Software engineering</h4>
+                  <p>COURSE</p>
+                  <p>Web Development, Mobile Development, iOT, APIs</p>
+             </div>
+          </div>
+          
+            <div class="course">
+          <div class="media-container">
+              <img src="resources/images/course-marketing.jpg"/>
+          </div>
+            
+             <div class=text-container>
+                  <h4>Software engineering</h4>
+                  <p>COURSE</p>
+                  <p>Web Development, Mobile Development, iOT, APIs</p>
+             </div>
+          </div>
+          
+      </div>
+      </div>
+      
+<!--section 4-->
+   
+    <div class="sec4">
+        <h2 class="centerh2">Thesis</h2>
+        
+     <div class="flex-content">
+     
+    <div class="main-content media-container">
+        <video src="resources/videos/thesis.mp4" controls>video could not be loaded.</video>
+        <h2>It doesn't hurt to keep practicing</h2>
+         <p>“Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.”
+         </p>
+         <span>Emanuel, Sr Strategist at Hiring.com</span>
+     </div>
+       
+        <div class="supporting-content">
+        
+        <div class="supporting-imagebox">
+           <div class="media-container">
+               <img src="resources/images/thesis-fisma.jpg"/>
+           </div>
+           <div class="text-content noMargin">
+               <h4>Fisma: Design and</h4>
+               <p>Designer showcase of new prototype product</p>
+            </div>
+        </div>
+        
+        
+        <div class="supporting-imagebox">
+           <div class="media-container">
+               <img src="resources/images/thesis-now-and-then.jpg"/>
+           </div>
+           <div class="text-content noMargin">
+               <h4>Now and then</h4>
+               <p>Reasearch study about New York</p>
+            </div>
+         </div>
+         
+         
+     </div>
+      </div>
+  </div>
+    
+    <!--footer-->
+    
+    <footer>
+      <div id="footer"> 
+        <span class="copyright">© 2017 Colmar Academy. All rights reserved.</span> 
+        <span class="terms-privacy">Terms</span>
+        <span class="terms-privacy">Privacy</span>
+      </div>
+    </footer>
+      
   </body>
 </html>
